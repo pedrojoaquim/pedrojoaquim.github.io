@@ -285,3 +285,13 @@ defaults:
       share: false
       related: true
       show_date: true
+
+   # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      sidebar:
+        nav: "nav_id"
